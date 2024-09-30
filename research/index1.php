@@ -9,7 +9,7 @@ include "connect.php";
         <!-- Stats Cards -->
         <div class="flex gap-6 justify-center">
             <!-- Research Papers -->
-            <div class="bg-green-100 p-4 m-2 w-64 h-13 flex items-center justify-center rounded-lg shadow">
+            <div class="bg-red-100 p-4 m-2 w-64 h-13 flex items-center justify-center rounded-lg shadow">
                 <div class="text-gray-800 text-xl font-semibold text-center">
                     <?php
                     $employee_id = $_SESSION['employee_id'];
@@ -80,13 +80,9 @@ include "connect.php";
                 </div>
                 <!-- <div class="text-purple-600 mt-2">Submitted and Approved</div> -->
             </div>
-            <div class=" bg-cyan-50 p-4 w-64 h-13 border-b-cyan-800 flex items-center justify-center m-2 rounded-lg shadow hover:bg-cyan-100">
-                <div class="text-gray-800 text-xl font-semibold text-center">
-                    <div class="filter-button text-gray-800">
-                        <button onclick="window.location.href = 'filterbox.php';"><i class="fa-duotone fa-solid fa-magnifying-glass"></i> Search </button>
-                    </div>
-                </div>
-                <!-- <div class="text-purple-600 mt-2">Submitted and Approved</div> -->
+            
+            <div class="w-64 h-13 bg-green-100 flex items-center justify-center m-2 rounded-lg shadow  text-gray-800 text-xl font-semibold text-center hover:bg-green-200">
+            <button class=" w-full h-full  text-gray-800 text-xl font-semibold text-center" onclick="window.location.href = 'filterbox.php';"><i class="fa-duotone fa-solid fa-magnifying-glass "></i> Search </button>
             </div>
         </div>
         <!-- Journal Papers Section -->
