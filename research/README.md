@@ -1,27 +1,42 @@
-<b>Warning!</b> It`s only copy of <a href="http://wrapbootstrap.com/preview/WB0B30DGR">ace demo-template</a> from wrapbootstrap.
-Repo contains minified ace js/css files.
-You can read more about the license <a href="https://wrapbootstrap.com/theme/ace-responsive-admin-template-WB0B30DGR">here</a>.
+# Faculty Research Upload Platform
 
-<h3>I`m not developer of this theme.</h3>
+A web application where faculty members can upload their academic contributions, including books, research papers, conference papers, and book chapters.
 
-<h2>Twitter bootstrap 3 admin template</h2>
+## Features
 
-see example http://ace.jeka.by/
+- **Upload and Manage Content:** Faculty can easily upload books, research papers, conference papers, and chapters.
+- **User-Friendly Interface:** Simple and intuitive interface for easy navigation and content management.
+- **Secure Uploads:** Secure system ensuring the integrity of uploaded content.
+- **Categorization:** Uploaded materials are categorized for easy search and retrieval.
+
+## Technologies Used
+
+- **Frontend:**
+  - HTML, CSS, JavaScript
+  - Tailwind CSS for styling
+- **Backend:**
+  - PHP
+  - MySQL database for data storage
+- **Version Control:**
+  - Git and GitHub for source code management
+
+## Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/yourusername/repo-name.git
+2. Navigate to the project directory:
+    cd research
+3. Set up your database using the provided SQL file -> scholarsphere.sql .
+
+4. Configure your environment variables and database connections in config.php.
+
+5. Start your local server (e.g., XAMPP, WAMP) and navigate to index.php to view the site.
 
 
-Try:
-- git clone git@github.com:bopoda/ace.git
-- open ace/index.html in your desktop or mobile browser
-
-
-Простой и многофункциональный Twitter bootstrap 3 шаблон для админки. Responsive дизайн.
-
-Browsers:
-- Internet Explorer 10
-- Internet Explorer 11
-- Internet Explorer 8
-- Internet Explorer 9
-- Latest Chrome
-- Latest Firefox
-- Latest Opera
-- Latest Safari
+Creators:
+Name: Aman Choudhary
+GitHub: [[Your GitHub Profile](https://github.com/amanchoudhary7)](https://github.com/amanchoudhary7)
+Name: Shipla Sinha
+GitHub: https://github.com/Shilpa3107
